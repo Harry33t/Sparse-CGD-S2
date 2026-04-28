@@ -36,8 +36,11 @@ pip install numpy einops timm transformers tensorboard tqdm rasterio scikit-lear
 
 ## Data
 
-Download MADOS from the official project page
-(<https://marine-pollution.github.io/MADOS>) and place it as
+Download MADOS from the official Zenodo archive
+([DOI: 10.5281/zenodo.10664073](https://doi.org/10.5281/zenodo.10664073))
+or via the official project page (<https://marine-pollution.github.io/MADOS>).
+The accompanying reference models are released at
+<https://github.com/gkakogeorgiou/mados>. Place the dataset as
 
 ```
 /path/to/MADOS/
