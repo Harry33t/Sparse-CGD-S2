@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Server-specific run scripts (kept local, not relevant for general reproduction) ---
+orchestrator.sh
+run_d1_cgd.sh
+run_evals.sh
+run_experiments.sh
+run_reseed_ablation.sh
+watchdog.sh
+watchdog_auto.sh
+watchdog_auto_d1.sh
+
+# --- Experiment outputs ---
+logs/
+runs/
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+*.npz
+*.npy
+tb/
+
+# --- Data (must be downloaded separately) ---
+MADOS/
+data/MADOS/
+dataset/
+
+# --- Local config / credentials (just in case) ---
+.env
+*.pem
+*.key
